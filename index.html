@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBRO Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">IS</div>
+    <h1 class="title">IBRO Studio</h1>
+
+    <div class="search">
+      <input type="text" placeholder="Search contacts, campaigns..." />
+    </div>
+
+    <div class="user">
+      <span>Ибрагим</span>
+      <img src="https://via.placeholder.com/36" alt="User" class="avatar" />
+    </div>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <!-- Layout -->
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <nav>
+        <a href="#" class="active">Overview</a>
+        <a href="#">Audience</a>
+        <a href="#">My Company</a>
+        <a href="#">Buy a Company</a>
+        <a href="#">Templates</a>
+        <a href="#">Analytics</a>
+        <a href="https://www.youtube.com/@0ibroYouTuber">About Us</a>
+
+      </nav>
+      <div class="sidebar-actions">
+        <button class="primary-btn">Create a Company</button>
+        <button class="secondary-btn">Import Contacts</button>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content">
+      <section class="card hero">
+        <h2>Grow your audience</h2>
+        <p>Create company, track performance and automate follow-ups.</p>
+        <div class="stats">
+          <div>
+            <strong>24.5k</strong>
+            <span>Monthly sends</span>
+          </div>
+          <div>
+            <strong>21.3%</strong>
+            <span>Open rate</span>
+          </div>
+          <button class="primary-btn">New Company</button>
+        </div>
+      </section>
+
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Audience</h3>
+          <p class="value">12,490</p>
+          <span class="sub">+4.2% this month</span>
+        </div>
+        <div class="card">
+          <h3>Company</h3>
+          <p class="value">128</p>
+          <span class="sub">Sent this weak</span>
+        </div>
+        <div class="card">
+          <h3>Automations</h3>
+          <p class="value">8</p>
+          <span class="sub">Active flows</span>
+        </div>
+      </div>
+
+      <section class="card templates">
+        <h3>Templates</h3>
+        <div class="template-list">
+          <div class="template">
+            <h4>Newsletter</h4>
+            <p>Start from a ready design.</p>
+            <div class="template-actions">
+              <button class="secondary-btn">Preview</button>
+              <button class="primary-btn">Use</button>
+            </div>
+          </div>
+          <div class="template">
+            <h4>Promotion</h4>
+            <p>Announce sales quickly.</p>
+            <div class="template-actions">
+              <button class="secondary-btn">Preview</button>
+              <button class="primary-btn">Use</button>
+            </div>
+          </div>
+          <div class="template">
+            <h4>Welcome</h4>
+            <p>Greet new subscribers.</p>
+            <div class="template-actions">
+              <button class="secondary-btn">Preview</button>
+              <button class="primary-btn">Use</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    © <span id="year"></span> IBRO Studio. (not) All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
