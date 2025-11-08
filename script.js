@@ -1,3 +1,6 @@
+// Показываем текущий год в подвале
+document.getElementById("year").textContent = new Date().getFullYear();
+
 // Переключение бокового меню на мобильных
 const menuBtn = document.getElementById("menuBtn");
 const sidebar = document.getElementById("sidebar");
@@ -12,4 +15,3 @@ document.querySelectorAll('.sidebar nav a').forEach(link => {
     link.classList.add('active');
   }
 });
-
