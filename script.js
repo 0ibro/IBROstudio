@@ -15,3 +15,4 @@ document.querySelectorAll('.sidebar nav a').forEach(link => {
     link.classList.add('active');
   }
 });
+
